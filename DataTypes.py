@@ -28,7 +28,9 @@ print (str1[4]) #printing 4th character of the string
 print (str1*2) #printing the string twice    
 print (str1 + str2) #printing the concatenation of str1 and str2    
 
-list1  = [1, "hi", "Python", 2]    
+list1  = [1, "hi", "Python", 2]   
+list1.append('teja') 
+list1.remove(2)
 #Checking type of given list  
 print(type(list1))  
   
@@ -49,6 +51,7 @@ print (list1 * 3)
 
 
 tup  = ("hi", "Python", 2)    
+
 # Checking type of tup  
 print (type(tup))    
   
@@ -70,14 +73,14 @@ print (tup * 3)
 
 
 
-d = {1:'Jimmy', 2:'Alex', 3:'john', 4:'mike'}     
+d = {1:'Jimmy', 2:'Alex', 3:'john', 'mikee':'mike'}     
   
 # Printing dictionary  
 print (d)  
   
 # Accesing value using keys  
 print("1st name is "+d[1])   
-print("2nd name is "+ d[4])    
+print("2nd name is "+ d['mikee'])    
   
 print (d.keys())    
 print (d.values())
