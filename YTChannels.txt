@@ -1,0 +1,11 @@
+1. FreeCodeCamp
+2. Sentdex
+3. 3Blue 1Brown
+4. CodeBasics
+5. AI Engineering
+6. StatQuest with Josh Starmer
+7. iNeuron Intellegence
+8. Ken Jee
+9. Abhishek Thakur
+10. Data Professor
+11. Corey Schafer
